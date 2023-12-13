@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="figma.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-container">
+            <div class="product-container">
+                <div class="product-image">
+                    <img src="" alt="Product Image" id="main-product-image">
+                    <div class="thumbnails-container">
+                        <div class="thumbnails">
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-details">
+                    <div class="head">
+                        <h1 class="product-vendor"></h1>
+                        <h2 class="product-title"></h2>
+                    </div>
+                    <p class="price"></p>
+                    <p class="compare-at-price"></p>
+                    <p class="percentage-off"></p>
+
+                    <div class="color-container">
+                        <h1 class="color-text">Choose a Color</h1>
+                        <div class="c-container">
+                            
+                        </div>
+                    </div>
+
+                    <div class="size-container">
+                        <h1 class="color-text">Choose the Size</h1>
+                        <div class="size-selector">
+                           
+                        </div>
+                    </div>
+
+                    <div>
+                        <input type="number" class="quantity-selector" value="1" min="1">
+                        <button class="add-to-cart-btn" onclick="addToCart()">Add to Cart</button>
+                    </div>
+                    <div class="product-details-added">
+                        <p id="addedProductDetails"></p>
+                    </div>
+
+                    <div class="message-container">
+                        <p class="add-to-cart-message"></p>
+                    </div>
+
+                    <div class="description">
+                        <h3>Description</h3>
+                        <p class="product-description"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="figma.js"></script>
+</body>
+
+</html>
